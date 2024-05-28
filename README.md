@@ -87,5 +87,3 @@ MERN Starter facilitates easy customization and extension. Users can modify blue
 MERN Starter is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
 ---
-
-This version retains the structure and format of the original README while providing rewritten content.
