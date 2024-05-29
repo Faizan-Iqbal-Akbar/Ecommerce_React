@@ -3,29 +3,43 @@
 
 ![MERN Starter](http://res.cloudinary.com/hashnode/image/upload/w_200/v1466495663/static_imgs/mern/v2/mernio-logo.png)
 
-# MERN Starter
+# 🚀 MERN Starter
 
 [MERN Starter](https://travis-ci.org/Hashnode/mern-starter.svg?branch=v2.0.0)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
 [![Discuss on Hashnode](https://hashnode.github.io/badges/mern.svg)](https://hashnode.com/n/mern)
 
 MERN Starter is a scaffolding tool designed to expedite the development of isomorphic applications using MongoDB, Express, React, and NodeJS. It streamlines the setup process and leverages proven technologies to accelerate development.
 
-## Quickstart
+## ⚡ Quickstart
 
-```
-npm install -g mern-cli
-mern init your_new_app
-cd your_new_app
-npm install
-npm start
-```
+To get started with MERN Starter, follow these steps:
 
-**Note**: Ensure MongoDB is running. For MongoDB installation guide, see [this](https://docs.mongodb.org/v3.0/installation/). Also, `npm3` is required to install dependencies properly.
+1. Install the MERN CLI globally:
+   ```bash
+   npm install -g mern-cli
+   ```
+2. Initialize your new app:
+   ```bash
+   mern init your_new_app
+   ```
+3. Navigate to your app directory:
+   ```bash
+   cd your_new_app
+   ```
+4. Install the dependencies:
+   ```bash
+   npm install
+   ```
+5. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## Available Commands
+**Note**: Ensure MongoDB is running. For the MongoDB installation guide, see [this](https://docs.mongodb.org/v3.0/installation/). Also, `npm3` is required to install dependencies properly.
+
+## 📋 Available Commands
 
 1. `npm run start`: Starts the development server with hot reloading enabled.
 2. `npm run bs`: Bundles the code and starts the production server.
@@ -34,7 +48,7 @@ npm start
 5. `npm run cover`: Generates a test coverage report.
 6. `npm run lint`: Runs linter to check for lint errors.
 
-## File Structure
+## 📂 File Structure
 
 ### Webpack Configs
 
@@ -72,17 +86,21 @@ This folder contains common components used throughout the project.
 
 Modules organize different domain-specific modules in the project. Each module typically includes components, pages, reducers, and actions.
 
-## Miscellaneous
+## 🛠️ Miscellaneous
 
 - Assets can be imported into JavaScript or CSS files and served by Webpack.
 - ES6 and experimental ES7 features are supported through Babel transpilation.
 - Docker configurations are available for both development and production environments.
 
-## Customization
+## 🔧 Customization
 
 MERN Starter facilitates easy customization and extension. Users can modify blueprints and generators to tailor the project to their specific requirements.
 
-## License
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for any improvements or bug fixes.
+
+## 📜 License
 
 MERN Starter is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
